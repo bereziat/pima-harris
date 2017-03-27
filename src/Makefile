@@ -1,3 +1,5 @@
+# blabla
+
 harris: harris.c
 	gcc $< -o $@ `imlib2-config --cflags --libs`  -lImlib2 -lm -L/opt/X11/lib -I/opt/X11/include
 test1:
